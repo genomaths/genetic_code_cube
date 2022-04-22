@@ -1,2 +1,19 @@
-# genetic_code_cube
+# Genetic Code Cube
 This a Wolfram Mathematica notebook to visualize the Genetic Code cube
+
+# Biological Background
+
+In the coding protein of the DNA molecules genetic information is encoded in three bases called triplets or codons. Every codon encodes the information for one amino acid and every amino acid can be encoded by one or more codons. The genetic code is the biochemical system that establishes the rules by which the nucleotide sequence of a gene is transcribed into the mRNA codon sequence and next the mRNA is translated into the amino acid sequence of the corresponding protein. The genetic code is an extension of the four-letter alphabet found in DNA molecules. These "letters" are the DNA bases: adenine, guanine, cytosine, and thymine, usually denoted A, G, C, and T respectively (in  RNA, T is changed to U, uracil). They are paired according to the following rule (Watson\[Dash]Crick base pairings): G:C, A:T. The base G is the complementary base of C, and A is the complementary base of T (or U) in the DNA (or RNA) molecule and vice-versa. The standard genetic code table is:
+
+<img src="https://www.researchgate.net/profile/Robersy-Sanchez/publication/7002668/figure/tbl1/AS:667204844527621@1536085439245/The-standard-genetic-code-table.png" align="center" />
+
+The three-dimensional structures of proteins are ultimately determined by the amino acid sequence encoded by the sequence of codons, genes. The protein folding is conducted by the hydrophobic interaction between hydrophobic amino acids and water. As a result, the final structures depend on the physicochemical properties of amino acids. The mutational event on protein-encoding DNA sequences can produce changes in the amino acid sequences which in turn can produce changes in the three-dimensional structure of proteins.
+
+# Algebraic Cube Handling
+The 24 representations of the Standard Genetic Code can be visualized with the present demonstration.  The genetic code representation used is "ACGU". The principal planes of the cube (planes NYN, Y is a fixed base of {U,C,A,G}) corresponding to the main principal columns of the Standard Genetic Cube. The representing matrix of a linear transformations can be set in the "matrix element control". After choosing of the "Vertical Plane XUZ" (codons in yellow) in the popup-menu "Codon 1", the application of the linear transformation 
+
+<img src="https://github.com/genomaths/genetic_code_cube/blob/main/gc_image.png">
+
+
+by clicking the button "linear transf" produces the Vertical Plane XGZ (mutants codons in white), which is perpendicular to the "Vertical Plane XUZ". For different cube representation these planes are located in different cube positions, however, they remain perpendiculars. The oblique plane "Oblique Plane NYN" is transformed into the "Oblique Plane YNN" by the application of above linear transformation (see Snapshot 4). It is available the selection of several subsets of codon: horizontal planes, vertical lines, amino acids, and individuals codons. A random sample of codon can be also chosen and for all the cases it is possible to the amino acid encoded by each codons clicking on the "Amino acid" button. The sum operation and product operation can act over individual codon or subset of them. The unique codon (AUG, in white) that encodes amino acid methionine (M) is added (clicking on the sum control) to the two codons (CAU and CAC, in yellow) that encode amino acid histidine (H) and two codon (CUU and CUC, in cyan) that encode amino acid leucine (L) (see also [2]). The color of planes, background and fonts can be controlled. The color of the wild type codon was selected black, the opacity was minimized and the background was set in white, and font size 12. The graphic can be saved locating the mouse arrow over the cube with a left click, and then doing a right-click; next in the menu choose Save Graphic As...
+
